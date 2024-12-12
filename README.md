@@ -21,3 +21,10 @@ To set the auto-escape time, use the command:
 ```
 :SetAutoEscTime 2
 ```
+# Test
+
+You can also directly open AutoEsc.vim with Vim, and then enter the following command in command mode:
+```
+:source %
+```
+This will allow you to test it without installing; the changes will automatically expire when you close Vim.
